@@ -1,0 +1,79 @@
+/* assets/css/register.css */
+
+/* فونت فارسی دلخواه (در صورت استفاده) */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    margin: 0;
+    padding: 0;
+}
+
+.register-container {
+    width: 100%;
+    max-width: 450px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.register-container input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+}
+
+.register-container input:focus {
+    border-color: #4facfe;
+    outline: none;
+}
+
+.register-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4facfe;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-container button:hover {
+    background-color: #3a94e8;
+}
+
+.register-container p {
+    text-align: center;
+    margin-top: 15px;
+    color: #444;
+}
+
+.register-container a {
+    color: #4facfe;
+    text-decoration: none;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,93 @@
+/* فونت ساده و پس‌زمینه گرادیانت */
+body {
+    font-family: "Tahoma", sans-serif;
+    background: linear-gradient(135deg, #ced1d3, #6dd5fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* جعبه فرم ورود */
+.login-container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    animation: fadeInUp 1s ease-out;
+}
+
+/* تیتر */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* ورودی‌ها */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #807a7a;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.login-container input:focus {
+    border-color: #5a5959;
+    outline: none;
+}
+
+/* دکمه */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #a82626;
+    color: rgb(226, 223, 223);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #1c5980;
+}
+
+/* لینک ثبت‌نام */
+.login-container p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-container a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* 🔄 انیمیشن ظاهر شدن */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+   
+
+
+
